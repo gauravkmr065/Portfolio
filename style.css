@@ -31,13 +31,14 @@ body{
 }
 
  .header{
-   background-color:#2b2e4a;
+   background-color:hsl(234, 26%, 23%);
    height: 8px;
    display: flex;
    align-items: center;
  }
  .header ul{
    color: white !important;
+   margin-top: 15px;
  }
 
  .whole-page{
@@ -51,16 +52,20 @@ body{
  .mainlogo{
    font-size: 28px;
    text-shadow: none !important;
+   /* margin-top: 5px; */
+   float: left;
+   margin-bottom: 10px;
  }
 header{
   /* position: fixed; */
   z-index: 50;
-  height: 75px;
+  height: 65px;
   background-color: white;
   width: 100%;
   padding: 25px 75px;
-  /* display: flex; */
+  display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 header ul { 
   display: flex;
